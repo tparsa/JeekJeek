@@ -51,6 +51,8 @@ public:
 	std::string getText() const { return text; }
 	std::vector<std::string> getHashTags() const { return hashTags; }
 	std::vector<std::string> getMentions() const { return mentions; }
+	TimeAndDate getPublishTime() { return publishTime; }
+	ID getID() { return jeekId;}
 };
 
 #endif
