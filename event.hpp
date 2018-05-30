@@ -61,4 +61,11 @@ public:
 	void print();
 };
 
+class MentionEvent : publi Event
+{
+public:
+	MentionEvent(std::string _username, ID _id, TimeAndDate _time) : Event(_username, _id, _time) {}
+	void print();
+}
+
 #endif

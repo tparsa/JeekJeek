@@ -41,3 +41,10 @@ void ReplyEvent::print()
 	id.print();
 	printf("\n");
 }
+
+void MentionEvent::print()
+{
+	printf("%s mentioned you in", username.c_str());
+	id.print();
+	printf("\n");
+}
