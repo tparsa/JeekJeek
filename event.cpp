@@ -47,4 +47,4 @@ void MentionEvent::print()
 	printf("%s mentioned you in", username.c_str());
 	id.print();
 	printf("\n");
-}
+}	
